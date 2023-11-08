@@ -2,58 +2,44 @@ body {
     background-color: #212121;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Helvetica', sans-serif; /* Use Helvetica font for the entire body */
+    font-family: 'Helvetica', sans-serif;
 }
 
-.pfp1 {
+.container {
+    text-align: center;
+}
+
+.pfp1,
+.pfp2 {
     width: 20%;
     display: block;
     margin: 0 auto;
     pointer-events: none;
 }
 
-.pfp2 {
-    width: 20%;
-    position: absolute;
-    top: 42%;
-    left: 46%;
-    transform: translate(-30%, -50%);
-    pointer-events: none;
+.page-title,
+.page-title2 {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .page-title {
-    color: white;
-    position: absolute;
-    top: 100px;
-    left: 51%;
-    transform: translateX(-50%);
     font-size: 41px;
-    font-family: 'Helvetica', sans-serif; /* Use Helvetica font for this element */
-
-
-
 }
 
 .page-title2 {
-    color: white;
-    position: absolute;
-    top: 400px;
-    left: 51%;
-    transform: translateX(-50%);
     font-size: 20px;
-    font-family: 'Helvetica', sans-serif; /* Use Helvetica font for this element */
-
+    margin-top: 20px;
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 220px;
-    margin-left: 55px;
+    margin-top: 20px;
 }
 
 .social-icons a {
@@ -62,21 +48,8 @@ body {
     font-size: 35px;
 }
 
-.social-icons a img {
-    width: 35px;
-    height: 35px;
-    pointer-events: none; /* Prevents dragging for social media icons */
-}
-
-
-
-
-
-
 .obitogif {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 10px; /* Adjust margin to position the GIF */
-    position: absolute; /* Position the GIF */
-    bottom: 50px; /* Adjust bottom position to place the GIF */
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
 }
